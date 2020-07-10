@@ -1,6 +1,6 @@
 # Panorama Image
 
-![Repo List](figures/over.jpg)
+![Repo List](figures/over.png)
 
 # Introcduction
 
