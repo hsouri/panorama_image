@@ -1,6 +1,5 @@
 # Panorama Image
 
-![Repo List](figures/over.png)
 
 # Introcduction
 
@@ -77,4 +76,9 @@ An input and output of a seamless panorama of three images are shown below.
 ![Repo List](figures/final.png)
 
 
+# Appendix
+
+Note1: For the full project description click [here](https://cmsc733.github.io/2020/proj/p1/).
+
+Note2: For the full documentation click [here](https://github.com/hsouri/ResNet-ResNeXt-DenseNet/blob/master/Report.pdf).
 
