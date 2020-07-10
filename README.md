@@ -52,7 +52,7 @@ We now have matched all the features correspondences but not all matches will be
 
 The RANSAC steps are:
 
-- Select four feature pairs (at random), $pi$ from image 1, pi′ from image 2.
+- Select four feature pairs (at random), pi from image 1, pi′ from image 2.
 - Compute homography H between the previously picked point pairs.
 - Compute inliers where SSD(p′i,Hpi)<τ, where τ is some user chosen threshold and SSD is sum of square difference function.
 - Repeat the last three steps until we have exhausted Nmax number of iterations (specified by user) or we found more than some percentage of inliers (Say 90% for example).
@@ -61,6 +61,20 @@ The RANSAC steps are:
 
 The output of feature matches after all outliers have been removed is shown below.
 
+![Repo List](figures/fmatch.png)
+
+## Blending Images
+
+Panorama can be produced by overlaying the pairwise aligned images to create the final output image. The output panorama stitched from two images shown in the Fig. 6 are shown below.
+
+
+![Repo List](figures/fp.png)
+
+
+An input and output of a seamless panorama of three images are shown below.
+
+
+![Repo List](figures/final.png)
 
 
 
