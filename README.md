@@ -76,6 +76,20 @@ An input and output of a seamless panorama of three images are shown below.
 ![Repo List](figures/final.png)
 
 
+# Code Instruction
+
+Run the following:
+
+```shell
+python Wrapper.py
+```
+For each module you can plot and save the results by setting plot flag to "True". Example:
+
+
+```shell
+best_corners = ANMS(corners, images, images_names, N_best=1000, plot=True)
+```
+
 # Appendix
 
 Note1: For the full project description click [here](https://cmsc733.github.io/2020/proj/p1/).
