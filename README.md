@@ -94,5 +94,5 @@ best_corners = ANMS(corners, images, images_names, N_best=1000, plot=True)
 
 Note1: For the full project description click [here](https://cmsc733.github.io/2020/proj/p1/).
 
-Note2: For the full documentation click [here](https://github.com/hsouri/ResNet-ResNeXt-DenseNet/blob/master/Report.pdf).
+Note2: For the full documentation click [here](https://drive.google.com/file/d/1iTwwbpsigVVUsQp9jhI822-1nBH712oo/view?usp=sharing).
 
